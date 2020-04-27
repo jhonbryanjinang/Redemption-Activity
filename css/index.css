@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.658),rgba(0,0,0,0.562)), url(../img/bg-img.png);
+    background-size: cover;
+    font-family: monospace;
+}
+h1{
+    font-weight: bold;
+}
+#headerr{
+    position: relative;
+    bottom: 6rem;
+    color: darkcyan;
+    background: linear-gradient(120deg, rgb(228,228,228), #fbfbfb);
+    border-radius: 8px;
+    box-shadow: -3px -3px 3px 0 rgba(255, 255, 255, 0.911),
+    3px 3px 3px 0 rgba(27, 27, 27, 0.664);
+}
+.container{
+    position: relative;
+    color: whitesmoke;
+    left: 25rem;
+    text-align: center;
+    padding-top: 20rem;
+    padding-bottom: 15rem;
+    background-color: rgba(45, 230, 214, 0.65);
+    box-shadow: -12px -12px 12px 0 rgba(30, 78, 75, 0.65),
+    12px 12px 12px 0 rgba(30, 78, 75, 0.65);
+    width: 35rem;
+}
+.btn{
+    position: relative;
+    bottom: 10px;
+    font-weight: bold;
+    color: darkcyan;
+    text-transform: uppercase;
+    background: rgba(188, 206, 226, 0.79);
+    box-shadow: -3px -3px 3px 0 rgba(255, 255, 255, 0.911),
+    3px 3px 3px 0 rgba(27, 27, 27, 0.664);
+    width: 156px;
+    height: 45px;
+    border-radius: 10px;
+}
+.btn:hover{
+    box-shadow: -3px -3px 3px 0 rgba(255, 255, 255, 0.911),
+    inset 3px 3px 3px 0 rgba(27, 27, 27, 0.664);
+}
